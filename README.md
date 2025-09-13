@@ -55,8 +55,7 @@ Motivation: A digital bus ticketing system improves convenience, reduces errors,
 * Programming Language: Java
 * GUI: Java Swing (JFrame)
 * Database: MySQL
-* Security: Passwords encrypted with SHA hash algorithm
-* Tools: GitHub (Version control), LaTeX (Documentation), Figma (Poster/Design)
+* Tools: GitHub (Version control)
 
 ---
 
