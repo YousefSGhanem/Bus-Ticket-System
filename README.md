@@ -132,13 +132,29 @@ Relationships:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YousefSGhanem/BusTravelio.git
+   git clone https://github.com/<your-username>/BusTravelio.git
    cd BusTravelio
    ```
-2. Create a MySQL database and import the required tables (see `BusTravelio/ducs/SQL_Tables.txt`).
+2. Create a MySQL database and import the required tables (see [SQL\_Tables.txt](BusTravelio/ducs/SQL_Tables.txt)).
 3. Open the project in your IDE and build it.
 4. Set your JDBC connection details (username, password, DB name) in the code.
 5. Start the program → Login as Admin or register as User.
+
+---
+
+## Poster
+
+A visual project overview poster is included in this repository:
+
+* [Poster (PDF)](docs/Poster.pdf)
+
+---
+
+## Future Work
+
+* Mobile version (Android app)
+* Integration of real-time bus schedules
+* Multi-language support (German/English)
 
 ---
 
@@ -146,9 +162,10 @@ Relationships:
 
 * Process model: Agile / Scrum
 * Development phases: Planning → Implementation → Testing → Review → Release
+* Tools: GitHub (Code), MS Teams (Communication), Figma (Design), LaTeX (Documentation)
 
 ---
 
 ## License
 
-This project is a university learning project and is intended for demonstration purposes only.
+This project is a university learning project and is intended for demonstration purpose
