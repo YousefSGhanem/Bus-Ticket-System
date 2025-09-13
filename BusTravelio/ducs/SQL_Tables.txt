@@ -1,0 +1,55 @@
+CREATE TABLE `paymentusers` (
+  `firstnamep` varchar(50) DEFAULT NULL,
+  `lastnamep` varchar(50) DEFAULT NULL,
+  `usernamep` varchar(45) NOT NULL,
+  `passwordp` varchar(45) DEFAULT NULL,
+  `addressp` varchar(150) DEFAULT NULL,
+  `emailp` varchar(100) DEFAULT NULL,
+  `DOBP` date DEFAULT NULL,
+  `currentp` int DEFAULT NULL,
+  `isadminp` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`usernamep`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+-----------------------------------------------------------------------------------
+
+CREATE TABLE `paymentcoupons` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `codep` varchar(45) DEFAULT NULL,
+  `price` int DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `isUsed` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+-----------------------------------------------------------------------------------
+
+CREATE TABLE `travels` (
+  `id` int NOT NULL,
+  `fromcity` varchar(100) DEFAULT NULL,
+  `tocity` varchar(100) DEFAULT NULL,
+  `Datum` date DEFAULT NULL,
+  `departureTime` time DEFAULT NULL,
+  `arriveTime` time DEFAULT NULL,
+  `price` double DEFAULT NULL,
+  `place` int DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+-----------------------------------------------------------------------------------
+
+
+CREATE TABLE `users` (
+  `firstname` varchar(50) DEFAULT NULL,
+  `lastname` varchar(50) DEFAULT NULL,
+  `username` varchar(45) NOT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  `emailaddress` varchar(100) DEFAULT NULL,
+  `isAdmin` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+
