@@ -132,7 +132,7 @@ Relationships:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/BusTravelio.git
+   git clone https://github.com/YousefSGhanem/BusTravelio.git
    cd BusTravelio
    ```
 2. Create a MySQL database and import the required tables (see [SQL\_Tables.txt](BusTravelio/ducs/SQL_Tables.txt)).
@@ -142,28 +142,10 @@ Relationships:
 
 ---
 
-## Poster
-
-A visual project overview poster is included in this repository:
-
-* [Poster (PDF)](docs/Poster.pdf)
-
----
-
-## Future Work
-
-* Mobile version (Android app)
-* Integration of real-time bus schedules
-* Multi-language support (German/English)
-
----
-
 ## Team & Project Management
 
 * Process model: Agile / Scrum
 * Development phases: Planning → Implementation → Testing → Review → Release
-* Tools: GitHub (Code), MS Teams (Communication), Figma (Design), LaTeX (Documentation)
-
 ---
 
 ## License
